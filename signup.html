@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: hwb(0 96% 2%); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .form-container {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .form-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container input {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%; 
+        }
+
+        .form-container button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%; 
+        }
+
+        .form-container button:hover {
+            background-color: darkred;
+        }
+
+        .form-container a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+
+        .form-container a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            flex: 1;
+            background-image: url("https://i.pinimg.com/736x/45/b5/1e/45b51e99b2c10f5e0a66bf2201fa6afe.jpg");
+ 
+            background-position: center;
+            border-radius: 0 10px 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Sign Up</h1>
+            <form>
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                <button type="submit">Create Account</button>
+                <a href="login.html">Already have an account? Login</a>
+            </form>
+        </div>
+        <div class="image-container"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Buy Medicine",
+    "description": "Recover without worrying about going out to buy reliable medication; get them delivered to your doorstep.",
+    "image": "https://img.freepik.com/free-photo/high-angle-pill-foils-plastic-containers_23-2148533456.jpg",
+    "alt": "Medicine"
+  },
+  {
+    "title": "Labs and Diagnostics",
+    "description": "Patients can benefit from well-designed labs and the infrastructure of the hospital.",
+    "image": "https://st2.depositphotos.com/1387241/6877/i/450/depositphotos_68771611-stock-photo-medical-scientist-and-chemist-in.jpg",
+    "alt": "Labs"
+  },
+  {
+    "title": "Health Checkup",
+    "description": "Take charge of your well-being with a health experience customized for you.",
+    "image": "https://cdn.vectorstock.com/i/500p/34/44/roentgenography-with-fluorography-body-checkup-vector-52593444.jpg",
+    "alt": "Health Checkup"
+  }
+]
